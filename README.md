@@ -28,5 +28,4 @@ try {
     print("Erro - $e->errorCode: $e->errorMessage.");
 }
 
-?>
 ```
