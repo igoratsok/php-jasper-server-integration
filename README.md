@@ -3,6 +3,7 @@ JSIntegration for PHP quickly integrates node.js to Jasper Server and retrieves 
 
 # Usage
 Usage is quite simple:
+
 ```php
 require_once("jasperserverintegration.php");
 
@@ -27,5 +28,4 @@ try {
 } catch(Exception $e) {
     print("Erro - $e->errorCode: $e->errorMessage.");
 }
-
 ```
